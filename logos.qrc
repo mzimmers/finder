@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>logo/Fluidra_Blue.png</file>
+    </qresource>
+</RCC>
