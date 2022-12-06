@@ -1,6 +1,5 @@
 #include <QClipboard>
 #include <QDateTime>
-#include "sstream"
 #include <iomanip>
 
 #include "macaddr_utils.h"
@@ -8,8 +7,8 @@
 #include "ui_widget.h"
 
 Widget::Widget(QWidget *parent)
-    : QWidget(parent)
-    , ui(new Ui::Widget)
+    : QWidget(parent),
+      ui(new Ui::Widget)
 {
     ui->setupUi(this);
 

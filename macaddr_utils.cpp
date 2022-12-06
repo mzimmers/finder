@@ -4,8 +4,6 @@
 #include <iostream>
 #include <sstream>
 
-#include "stdio.h"
-
 #include "macaddr_utils.h"
 
 using namespace std;

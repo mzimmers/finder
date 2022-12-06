@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 
     r = new Receiver(&w);
     w.show();
-    return a.exec();
-
+    a.exec();
+    delete(r);
     return 0;
 }
